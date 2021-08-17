@@ -4,7 +4,7 @@
   "description": "Test web-services",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha-parallel-tests"
   },
   "keywords": [
     "mocha",
@@ -22,5 +22,8 @@
     "request": "^2.83.0",
     "request-promise-native": "^1.0.5",
     "should": "^13.2.3"
+  },
+  "devDependencies": {
+    "mocha-parallel-tests": "^2.3.0"
   }
 }
